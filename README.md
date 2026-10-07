@@ -11,7 +11,7 @@ Script de automatización para consultar datos públicos de entidades en Ecuador
 Recibe un `RUC`, consulta:
 
 1. **SRI** (`srienlinea.sri.gob.ec`) — datos de la empresa y representantes legales.
-2. **Función Judicial** — demandas judiciales de la empresa y representante legal (como Actor y Demandado).
+2. **Función Judicial** — demandas judiciales de la empresa y representantes legales (como Actor y Demandado).
 3. **SENESCYT** (`titulos-edusuperior.minedec.gob.ec`) — títulos académicos de los representantes (resuelve CAPTCHA con Tesseract OCR).
 
 Genera un archivo `Reporte_{RUC}.xlsx` con los resultados.
