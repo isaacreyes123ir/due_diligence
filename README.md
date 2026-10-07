@@ -26,8 +26,9 @@ pip install -r requirements.txt
 
 Requisitos externos:
 - Python 3.10+
-- Tesseract OCR instalado (para resolver CAPTCHAs). En Windows: configurá `RUTA_TESSERACT_WINDOWS` en `.env`.
-
+- Tesseract OCR instalado en el sistema operativo:
+  - **Linux (Debian/Ubuntu):** `sudo apt install tesseract-ocr`
+  - **Windows:** Descargar el instalador y configurar `RUTA_TESSERACT_WINDOWS` en `.env`.
 ---
 
 ## Configuración
