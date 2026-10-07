@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.xlsx
+captcha_temp.jpg
+entorno_bots/
