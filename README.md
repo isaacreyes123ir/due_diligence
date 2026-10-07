@@ -84,6 +84,10 @@ Ver `requirements.txt`:
 
 ---
 
+<img width="1780" height="761" alt="Captura de pantalla 2026-10-06 212709-2" src="https://github.com/user-attachments/assets/c81c15e5-325a-41e9-bd58-39092c4df014" />
+
+---
+
 ## Autor / Contexto
 
 Script creado como demostración técnica: scraping con CAPTCHA, consumo de APIs públicas, orquestación con Python, generación de reportes.
