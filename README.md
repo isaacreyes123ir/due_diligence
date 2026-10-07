@@ -86,4 +86,4 @@ Ver `requirements.txt`:
 
 ## Autor / Contexto
 
-Script creado como demostración técnica: scraping con CAPTCHA, consumo de APIs públicas, orquestación con Python puro, generación de reportes.
+Script creado como demostración técnica: scraping con CAPTCHA, consumo de APIs públicas, orquestación con Python, generación de reportes.
