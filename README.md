@@ -2,7 +2,7 @@
 
 Script de automatización para consultar datos públicos de entidades en Ecuador. Demuestra scraping con CAPTCHA (OCR), consumo de APIs gubernamentales y generación de reportes en Excel.
 
-> **Estado**: proyecto de demostración y base extensible. No es para producción.
+> **Estado**: proyecto de demostración. No es para producción.
 
 ---
 
