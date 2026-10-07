@@ -70,47 +70,6 @@ Te pedirá el RUC y mostrará los resultados en terminal, luego genera el Excel.
 
 ---
 
-## ¿Querés extender esto?
-
-El código está organizado para que cada fuente sea independiente. Ejemplos:
-
-### Agregar una nueva fuente de datos
-
-Creá una función con el mismo patrón que `consultar_sri()` o `consultar_demandas()`:
-
-```python
-def consultar_nueva_fuente(ruc: str) -> dict | None:
-    # Tu lógica de scraping o API
-    return datos
-```
-
-Después conectala en `ejecutar_pipeline()`:
-
-```python
-nuevos_datos = consultar_nueva_fuente(ruc)
-```
-
-### Reemplazar el output de Excel por CSV / JSON / DB
-
-Editá `imprimir_tabla()` y el bloque que crea `pd.ExcelWriter`. El resto del pipeline no cambia.
-
-### Usar solo el solucionador de CAPTCHA en otro proyecto
-
-```python
-from due_diligence import procesar_y_leer_captcha
-texto = procesar_y_leer_captcha("mi_captcha.jpg")
-```
-
----
-
-## Notas para contribuyentes
-
-- El archivo `CLAUDE.md` está vacío intencionalmente; es un punto de partida para definir protocolos o esquemas de wiki si se desea expandir el proyecto hacia documentación académica o de conocimiento.
-- No hay tests ni CI — se acepta cualquier contribución que agregue: documentación, modularización (`src/` separado), manejo de errores, o nuevas fuentes de datos.
-- Si vas a extender con una base de datos o un framework web, este script sirve como **módulo de extracción de datos** (ETL ligero).
-
----
-
 ## Dependencias
 
 Ver `requirements.txt`:
@@ -126,4 +85,4 @@ Ver `requirements.txt`:
 
 ## Autor / Contexto
 
-Script creado como demostración técnica: scraping con CAPTCHA, consumo de APIs públicas, orquestación con Python puro, generación de reportes. Pensado para que otros desarrolladores lo tomen como base y construyan herramientas de análisis, dashboards o sistemas de monitoreo sobre datos gubernamentales.
+Script creado como demostración técnica: scraping con CAPTCHA, consumo de APIs públicas, orquestación con Python puro, generación de reportes.
